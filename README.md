@@ -1,5 +1,5 @@
 # ShopifyBlogAutomation
-Create Shopify Blog posts in Bulk with Python!
+Create Shopify Blog posts in Bulk with Python! For generating blog posts, please have a look at: https://github.com/birdhouses/ArticleAI
 
 ## Setup
 - Run pip install requirements.txt
