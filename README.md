@@ -10,6 +10,7 @@ Create Shopify Blog posts in Bulk with Python!
     - https://help.shopify.com/en/manual/apps/app-types/custom-apps
 
 ## Usage
-- Run `python3 run.py --blog_id your_blog_id --blog_dir your_blog_dir`
+- Run `python3 run.py --blog_id your_blog_id --blog_dir your_blog_dir --image_dir image_dir`
   - To find your blog ID, navigate to Online Store > Blog Posts. Click on the blog name. The number at the end of the URL in your browser's address bar is the blog ID.
   - The blog dir should be a folder with .txt files for the blog posts.The title of the blog post is determined by the first line of the .txt file, prefixed with a singular #
+  - The image_dir is not required. The script will pick a random image from this directory when creating the blog post.
